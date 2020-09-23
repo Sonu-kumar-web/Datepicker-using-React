@@ -1,6 +1,15 @@
-import React from 'react'
-import styles from './styles.module.css'
+import React, { Component, Fragment } from 'react'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+import '../example/src/App.css'
+export class DatePicker extends Component {
+  render() {
+    return (
+      <Fragment>
+        <div className='output'>
+          <h1>Your selected date is: </h1>
+          <h1>{this.props.defaultValue}</h1>
+        </div>
+      </Fragment>
+    )
+  }
 }
