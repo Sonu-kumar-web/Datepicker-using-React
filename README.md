@@ -28,11 +28,7 @@ class Example extends Component {
 ## License
 
 MIT © [Sonu Kumar](https://github.com/Sonu Kumar)
-# Date-picker-library-for-React
 
 # Datepicker-using-React
 
-# Datepicker-using-React
-
-# Datepicker-using-React
 
