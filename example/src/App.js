@@ -5,7 +5,7 @@ import './App.css'
 
 class App extends Component {
   constructor(props) {
-    super(props)
+    super()
     let d = new Date()
     let month = '-' + (d.getMonth() + 1)
     let day = '-' + d.getDate()
